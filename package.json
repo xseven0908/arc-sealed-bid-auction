@@ -1,5 +1,5 @@
 {
-  "name": "sealed-bid-auction",
+  "name": "arc-sealed-bid-auction",
   "version": "0.1.0",
   "private": true,
   "description": "Commit-reveal sealed-bid auction settled in native USDC on Arc Testnet",
