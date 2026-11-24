@@ -1,10 +1,12 @@
 {
   "name": "arc-sealed-bid-auction",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Commit-reveal sealed-bid auction settled in native USDC on Arc Testnet",
+  "description": "Commit-reveal sealed-bid auction settled in native USDC on Arc Testnet with O(1) finalization and pull claims",
+  "license": "MIT",
   "scripts": {
     "compile": "hardhat compile",
+    "typecheck": "tsc --noEmit",
     "test": "hardhat test",
     "deploy": "hardhat run scripts/deploy.ts --network arcTestnet",
     "demo": "hardhat run scripts/demo.ts --network arcTestnet"
